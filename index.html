@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div>
+<form>
+    <div class="form-group fff">
+        <div class="container center-block text-center">
+            <h1>Base convertor</h1>
+          <div class="row" id="inputbox">
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <input autofocus type="number" step="1" class="form-control text-center" placeholder="Decimal number" id="deci">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+              <div class="basetype center-block text-center">
+                <select id="mySelect" class="text-center">
+                 <option value="B">Binary</option>
+                 <option value="O">Octal</option>
+                 <option value="H">HexaDecimal</option>
+                </select>
+             </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <input readonly type="text" class="form-control text-center" placeholder="Converted number " id="converted">
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+            <input type="button" value="Convert" class="btn btn-secondary" onclick="convertor()" id="btn1">
+        </div>
+    </div>
+  </form>
+  <p>-created by Alok</p>
+</div>
+<script src="index.js"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+</html>

@@ -1,0 +1,63 @@
+/*.fff{
+  width:230px;
+  margin-top: 200px;
+  margin-left: 394px;
+}
+.fff1{
+  position:absolute;
+  width:230px;
+  margin-left: 500px;
+}*/
+#inputbox{
+  margin-top: 160px;
+}
+
+#mySelect{
+  height:70px;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align-last: center;
+  border-radius: 10px;
+  background-color: white;
+}
+#btn1{
+  margin: 0 auto;
+  margin-top: 100px;
+  height:70px;
+  width: 83%;
+  font-size: 40px;
+  border: solid black 1px;
+}
+body{
+  background-color: #2196F3;
+}
+#deci{
+  height:110px;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border: solid black 1px;
+}
+#converted{
+  height:110px;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border: solid black 1px;
+}
+
+::-webkit-input-placeholder {
+   font-size: 16px!important;
+}
+h1{
+  color:white;
+  font-weight: bolder;
+  font-size: 70px;
+  margin-top: 160px;
+}
+p{
+  color:white;
+  text-align:right;
+  font-size:30px;
+  margin-top: 80px;
+}
